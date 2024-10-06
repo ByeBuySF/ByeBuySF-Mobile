@@ -14,7 +14,7 @@ const NavBar = () => {
           <Link to={`login/`}>Login</Link>
         </li>
         <li>
-          <Link to={`upload/`}>Upload</Link>
+          <Link to={`upload/`}>Photo Upload</Link>
         </li>
         <li>
           <Link to={`results/`}>Results</Link>
