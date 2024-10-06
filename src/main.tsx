@@ -8,7 +8,7 @@ import ErrorPage from './routes/ErrorPage/ErrorPage.tsx';
 import LandingPage from './routes/LandingPage/LandingPage';
 import Register from './routes/Register/Register';
 import Login from './routes/Login/Login';
-import Upload from './routes/Upload/Upload';
+import PhotoUpload from './routes/PhotoUpload/PhotoUpload.tsx';
 import Results from './routes/Results/Results';
 
 
@@ -34,7 +34,7 @@ const router = createBrowserRouter([
       },
       {
         path: "upload/",
-        element: <Upload />,
+        element: <PhotoUpload />,
       },
       {
         path: "results/",
