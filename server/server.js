@@ -6,9 +6,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('dist'));
 
-const cors = require('cors');
-app.use(cors())
-
 // Listen Server & Port
 app.listen(PORT, () => {
   console.log(`Listening on port: ${PORT}`);
